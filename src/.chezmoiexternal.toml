@@ -28,20 +28,8 @@
 {{-   else if eq .chezmoi.os "linux" }}
 {{-     $fontDir = ".local/share/fonts" }}
 {{-   end }}
-["{{ $fontDir }}/MesloLGS NF Regular.ttf"]
-    type = "file"
-    url = "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS NF Regular.ttf"
-    refreshPeriod = "168h"
-["{{ $fontDir }}/MesloLGS NF Bold.ttf"]
-    type = "file"
-    url = "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS NF Bold.ttf"
-    refreshPeriod = "168h"
-["{{ $fontDir }}/MesloLGS NF Italic.ttf"]
-    type = "file"
-    url = "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS NF Italic.ttf"
-    refreshPeriod = "168h"
-["{{ $fontDir }}/MesloLGS NF Bold Italic.ttf"]
-    type = "file"
-    url = "https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS NF Bold Italic.ttf"
-    refreshPeriod = "168h"
+["{{ $fontDir }}"]
+type = "archive"
+url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip"
+refreshPeriod = "168h"
 {{- end }}
