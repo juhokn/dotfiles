@@ -29,7 +29,7 @@
 {{-     $fontDir = ".local/share/fonts" }}
 {{-   end }}
 ["{{ $fontDir }}"]
-type = "archive"
-url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip"
-refreshPeriod = "168h"
+    type = "archive"
+    url = "https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/FiraCode.zip"
+    refreshPeriod = "168h"
 {{- end }}
